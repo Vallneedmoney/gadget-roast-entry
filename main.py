@@ -7,7 +7,7 @@ Standard library only — the grader sandbox has no third-party packages.
 
 import os
 
-LINE = "My charger only works when the cable is bent at exactly 37 degrees, like I'm cracking a safe, not charging a phone."
+LINE = "My charger only works with the cable bent at exactly 37 degrees and a book holding it there — it charges slower than my phone discharges."
 
 def main():
     if not 1 <= len(LINE) <= 200:
